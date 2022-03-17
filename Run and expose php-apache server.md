@@ -1,5 +1,7 @@
 Run and expose php-apache server
-To demonstrate a HorizontalPodAutoscaler, you will first make a custom container image that uses the php-apache image from Docker Hub as its starting point. The Dockerfile is ready-made for you, and has the following content:
+
+To demonstrate a HorizontalPodAutoscaler, you will first make a custom container image that uses the php-apache image from Docker Hub as its starting point. 
+The Dockerfile is ready-made for you, and has the following content:
 
 FROM php:5-apache
 COPY index.php /var/www/html/index.php
